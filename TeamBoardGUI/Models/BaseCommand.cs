@@ -5,6 +5,7 @@ using System.Windows.Input;
 
 namespace TeamBoardGUI.Tools
 {
+    //Commands are called from the views
     public class BaseCommand : ICommand
     {
         private Predicate<object> _canExecute;

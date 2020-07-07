@@ -7,5 +7,6 @@ namespace TeamBoardGUI.ViewModels
 {
     public class LoginViewModel
     {
+
     }
 }

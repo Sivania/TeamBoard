@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\App.xaml
-5-1131248870
+7279383685
 
-151259576200
+191385897185
 1921654412462
-MainWindow.xaml;Views\HostView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\WelcomeView.xaml;
+MainWindow.xaml;Views\HostNewView.xaml;Views\HostOldView.xaml;Views\HostView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\WelcomeView.xaml;
 
 False
 

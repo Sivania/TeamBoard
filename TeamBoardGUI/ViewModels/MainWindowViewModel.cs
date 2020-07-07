@@ -9,39 +9,33 @@ namespace TeamBoardGUI.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        public ICommand ShowWelcome { get; set; }
-        public ICommand ShowHost { get; set; }
-        private object _page;
-
+        //PROPERTIES
+        private object _page; //Visible Page
         public object Page {
             get { return _page; }
 
             set { _page = value; OnPropertyChanged("Page"); }
         }
 
+        //CONSTRUCTOR
         public MainWindowViewModel()
         {
-            ShowWelcome = new BaseCommand(OpenWelcome);
-            ShowHost = new BaseCommand(OpenHost);
             Page = new WelcomeViewModel(this);
         }
 
-        public void OpenWelcome(object obj)
-        {
-            Page = new WelcomeViewModel(this);
-        }
-        public void OpenHost(object obj)
-        {
-            Page = new HostViewModel(this);
-        }
+        //METHODS
+        //pages
+        public void OpenWelcome(object obj) { Page = new WelcomeViewModel(this); }
+        public void OpenHost(object obj) { Page = new HostViewModel(this); }
+        public void OpenHostNew(object obj) { Page = new HostNewViewModel(this); }
+        public void OpenHostExisting(object obj) { Page = new HostOldViewModel(this); }
 
+        //EXTRAS
+        //Updates view upon change
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string propName)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
     }
 }

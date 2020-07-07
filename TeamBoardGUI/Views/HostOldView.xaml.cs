@@ -10,26 +10,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TeamBoardGUI.ViewModels;
 
 namespace TeamBoardGUI.Views
 {
     /// <summary>
-    /// Interaction logic for WelcomeView.xaml
+    /// Interaction logic for HostOldView.xaml
     /// </summary>
-    public partial class WelcomeView : UserControl
+    public partial class HostOldView : UserControl
     {
-        public WelcomeView()
+        public HostOldView()
         {
             InitializeComponent();
-        }
-
-        private void WindowSizeChanged(object sender, SizeChangedEventArgs e)
-        {
-            if (e.NewSize.Width < e.NewSize.Height)
-                WelcomePanel.Orientation = Orientation.Vertical;
-            else
-                WelcomePanel.Orientation = Orientation.Horizontal;
         }
     }
 }

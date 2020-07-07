@@ -9,17 +9,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <!--<Window.Resources>
-        <DataTemplate x:Name="menuViewTemplate" DataType="{x:Type viewmodels:MenuViewModel}">
-            <views:MenuView DataContext="{Binding}"/>
-        </DataTemplate>
-        <DataTemplate x:Name="loginViewTemplate" DataType="{x:Type viewmodels:LoginViewModel}">
-            <views:LoginView DataContext="{Binding}"/>
-        </DataTemplate>
-        <DataTemplate x:Name="welcomeViewTemplate" DataType="{x:Type viewmodels:WelcomeViewModel}">
-            <views:WelcomeView DataContext="{Binding}"/>
-        </DataTemplate>
-    </Window.Resources>-->
     <Window.Resources>
         <DataTemplate DataType="{x:Type viewmodels:WelcomeViewModel}">
             <views:WelcomeView/>
@@ -27,9 +16,15 @@
         <DataTemplate DataType="{x:Type viewmodels:HostViewModel}">
             <views:HostView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:HostNewViewModel}">
+            <views:HostNewView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:HostOldViewModel}">
+            <views:HostOldView/>
+        </DataTemplate>
     </Window.Resources>
 
-    <Grid Background="LightGray">
+    <Grid Background="LightBlue">
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>

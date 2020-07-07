@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\HostNewView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HostOldView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HostView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -21,6 +27,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\HostNewView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HostOldView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\HostView.xaml">
       <SubType>Designer</SubType>
     </Page>

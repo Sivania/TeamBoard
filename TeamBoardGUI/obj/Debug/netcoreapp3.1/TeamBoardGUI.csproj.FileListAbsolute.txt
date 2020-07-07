@@ -26,3 +26,7 @@ C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Vie
 C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\WelcomeView.baml
 C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostView.g.cs
 C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostView.baml
+C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostNewView.g.cs
+C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostNewView.baml
+C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostOldView.g.cs
+C:\Users\Sivania\source\repos\TeamBoard\TeamBoardGUI\obj\Debug\netcoreapp3.1\Views\HostOldView.baml
